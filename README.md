@@ -1,6 +1,6 @@
-# Ardian Secondaries Data Lab
+# Data Lab
 
-An internal institutional-grade analytics platform for Ardian Secondaries & Primaries professionals to perform fund and company level analysis.
+An internal institutional-grade analytics platform for PE professionals to perform fund and company level analysis.
 
 ## Quick Start
 
