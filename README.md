@@ -45,7 +45,7 @@ Open **http://localhost:5173** in your browser.
 | Explainability Lab | `/explainability` | SHAP values & feature importance |
 
 ---
-d
+
 ## Architecture
 
 ```
@@ -124,30 +124,6 @@ GET  /api/funds/{id}/monte-carlo     - Run Monte Carlo simulation
 GET  /api/survival                   - Survival analysis data
 GET  /api/explainability             - SHAP/feature importance
 ```
-
----
-
-## Future Integrations (Planned)
-
-- **Claude API**: Real LLM-powered analyst responses and business plans
-- **Bloomberg / Refinitiv**: Live financial data feeds
-- **PitchBook / Preqin**: Market benchmark data
-- **News APIs**: Real-time sentiment analysis
-- **Document AI**: PDF ingestion for CIM / IC memos
-
----
-
-## Design Philosophy
-
-> "Institutional research terminal, not startup dashboard."
-
-- White background with soft grey panels
-- Dense but elegant information layout
-- Bloomberg/FactSet aesthetic throughout
-- Investment-committee ready visuals
-- Monospace fonts for financial data
-
----
 
 ## Requirements
 
