@@ -174,7 +174,7 @@ export const MOCK_COMPANIES = [
   },
   {
     id: 3,
-    name: 'Meridian Industrials Group',
+    name: 'Ardian Industrials Group',
     sector: 'Industrials',
     geography: 'Europe',
     fund: 'Fund II',
@@ -194,7 +194,7 @@ export const MOCK_COMPANIES = [
     ebitda_margin: 22.4,
     employees: 2100,
     hq: 'Frankfurt, Germany',
-    description: 'Meridian Industrials Group is a specialty manufacturer of precision engineered components for automotive and aerospace applications. The company operates 8 manufacturing facilities across Germany, Poland, and the Czech Republic, serving Tier 1 automotive suppliers and aerospace OEMs.',
+    description: 'Ardian Industrials Group is a specialty manufacturer of precision engineered components for automotive and aerospace applications. The company operates 8 manufacturing facilities across Germany, Poland, and the Czech Republic, serving Tier 1 automotive suppliers and aerospace OEMs.',
     investment_thesis: 'Successfully exited via strategic sale to Voith GmbH at 12.4x EBITDA (March 2021). Value creation delivered through footprint optimization (closed 2 underperforming plants), operational excellence program that improved EBITDA margins by 7.4pp, and bolt-on acquisition of Czech precision machining business.',
     management: [
       { name: 'Hans-Dieter Müller', title: 'Chief Executive Officer', tenure_years: 9 },
@@ -217,7 +217,7 @@ export const MOCK_COMPANIES = [
     comparable_companies: [
       { name: 'Precision Castparts', ev_ebitda: 16.2, rev_growth: 5.4, ebitda_margin: 26.1, is_subject: false },
       { name: 'GKN Aerospace', ev_ebitda: 11.8, rev_growth: 7.2, ebitda_margin: 19.3, is_subject: false },
-      { name: 'Meridian Industrials', ev_ebitda: 12.4, rev_growth: 8.2, ebitda_margin: 22.4, is_subject: true },
+      { name: 'Ardian Industrials', ev_ebitda: 12.4, rev_growth: 8.2, ebitda_margin: 22.4, is_subject: true },
     ],
     historical_financials: [
       { year: 2016, revenue: 142, ebitda: 21, valuation: 240 },
@@ -500,7 +500,7 @@ export const MOCK_FUNDS = {
     status: 'Value Creation',
     companies: [
       { id: 2, name: 'Pinnacle Health Partners', status: 'Active', nav: 290, moic: 1.9, sector: 'Healthcare' },
-      { id: 3, name: 'Meridian Industrials Group', status: 'Exited', nav: 480, moic: 2.8, sector: 'Industrials' },
+      { id: 3, name: 'Ardian Industrials Group', status: 'Exited', nav: 480, moic: 2.8, sector: 'Industrials' },
       { id: 9, name: 'Castlerock Retail Group', status: 'Active', nav: 210, moic: 1.4, sector: 'Consumer' },
       { id: 10, name: 'Delta Energy Services', status: 'Active', nav: 280, moic: 1.7, sector: 'Energy' },
       { id: 11, name: 'Prestige Hotels & Resorts', status: 'Active', nav: 180, moic: 1.3, sector: 'Hospitality' },
@@ -654,7 +654,7 @@ export const MOCK_NEWS = {
       date: '2024-01-08',
       source: 'Supply Chain Dive',
       title: 'NovaTech raises Series D funding; valuation reaches $2.1B',
-      summary: 'NovaTech Systems closed a $120M Series D round led by existing PE sponsor Meridian Capital, with participation from strategic investor SAP Ventures. The funding will be used to accelerate AI product development and international expansion.',
+      summary: 'NovaTech Systems closed a $120M Series D round led by existing PE sponsor Ardian Capital, with participation from strategic investor SAP Ventures. The funding will be used to accelerate AI product development and international expansion.',
       sentiment: 'positive',
       sentiment_score: 0.91,
     },

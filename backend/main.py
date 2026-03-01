@@ -16,7 +16,7 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from routers import portfolio, companies, funds, analytics
+from routers import portfolio, companies, funds, analytics, intelligence, deals
 
 # ---------------------------------------------------------------------------
 # Logging
@@ -108,6 +108,8 @@ app.include_router(portfolio.router)
 app.include_router(companies.router)
 app.include_router(funds.router)
 app.include_router(analytics.router)
+app.include_router(intelligence.router)
+app.include_router(deals.router)
 
 
 # ---------------------------------------------------------------------------
@@ -146,6 +148,7 @@ async def root() -> Dict[str, Any]:
             "overview": "/api/overview",
             "survival": "/api/survival",
             "explainability": "/api/explainability",
+            "intelligence": "/api/intelligence",
             "docs": "/docs",
             "redoc": "/redoc",
         },

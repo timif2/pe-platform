@@ -13,7 +13,7 @@ const ROUTE_TITLES = {
 
 function getTitle(pathname) {
   if (pathname.startsWith('/portfolio/')) return 'Company Detail'
-  return ROUTE_TITLES[pathname] || 'Meridian PE Analytics'
+  return ROUTE_TITLES[pathname] || 'Ardian PE Analytics'
 }
 
 function formatDateTime(date) {

@@ -41,4 +41,27 @@ export const analyticsApi = {
   getExplainability: (companyId) => api.get('/api/explainability', { params: { company_id: companyId } }),
 }
 
+export const intelligenceApi = {
+  generateCompanySheet: (payload) =>
+    api.post('/api/intelligence/company-sheet', payload),
+
+  generateCompanySheetWithDocs: (formData) =>
+    api.post('/api/intelligence/company-sheet-with-docs', formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+    }),
+
+  generateBusinessPlan: (payload) =>
+    api.post('/api/intelligence/business-plan', payload),
+
+  chat: (payload) =>
+    api.post('/api/intelligence/chat', payload),
+}
+
+export const dealsApi = {
+  getDeals: () => api.get('/api/deals/'),
+  getDeal: (dealId) => api.get(`/api/deals/${dealId}`),
+  getFundModel: (dealId, fundId) => api.get(`/api/deals/${dealId}/funds/${fundId}/model`),
+  predict: (companyIds) => api.post('/api/deals/predict', { company_ids: companyIds }),
+}
+
 export default api

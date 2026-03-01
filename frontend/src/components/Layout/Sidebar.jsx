@@ -7,6 +7,8 @@ import {
   BarChart3,
   TrendingDown,
   FlaskConical,
+  Sparkles,
+  Layers,
   ChevronLeft,
   ChevronRight
 } from 'lucide-react'
@@ -14,7 +16,9 @@ import clsx from 'clsx'
 
 const NAV_ITEMS = [
   { path: '/', label: 'Overview', icon: LayoutDashboard, exact: true },
+  { path: '/deals', label: 'Deals', icon: Layers },
   { path: '/portfolio', label: 'Portfolio', icon: Briefcase },
+  { path: '/intelligence', label: 'Co. Intelligence', icon: Sparkles },
   { path: '/predictions', label: 'Predictions Lab', icon: Brain },
   { path: '/fund-analytics', label: 'Fund Analytics', icon: BarChart3 },
   { path: '/survival', label: 'Survival Analysis', icon: TrendingDown },

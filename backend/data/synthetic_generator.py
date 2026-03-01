@@ -89,7 +89,7 @@ COMPANY_NAMES: Dict[str, List[str]] = {
         "Quantum Computing Co",
     ],
     "Healthcare": [
-        "BioMedica Partners", "ClearPath Health", "Meridian Medical", "Precision Diagnostics",
+        "BioMedica Partners", "ClearPath Health", "Ardian Medical", "Precision Diagnostics",
         "LifeScience Holdings", "Vanguard Therapeutics", "CarePath Solutions", "Nexgen Pharma",
         "Align Health", "Summit Wellness", "PharmaTech Group", "MedCore Systems",
         "BrightCare Clinics", "Genesis BioTech", "Pulsar Medical",
@@ -107,7 +107,7 @@ COMPANY_NAMES: Dict[str, List[str]] = {
         "Maple Retail Group", "Noble Consumer", "Oakwood Brands",
     ],
     "Financial Services": [
-        "Meridian Capital Partners", "Apex Financial Group", "Summit Wealth Management",
+        "Ardian Capital Partners", "Apex Financial Group", "Summit Wealth Management",
         "Clearwater Insurance", "Horizon Asset Management", "Benchmark Financial",
         "Cardinal FinTech", "Delphi Payments", "Equinox Credit", "Frontier Lending",
         "Gateway FinServ", "Harbor Financial", "Inspire Wealth", "Junction Capital",
@@ -158,7 +158,7 @@ class DataGenerator:
         funds_def = [
             {
                 "id": "fund_001",
-                "name": "Meridian Capital Fund I",
+                "name": "Ardian Capital Fund I",
                 "vintage_year": 2017,
                 "committed_capital": 800.0,
                 "strategy": "Mid-Market Buyout",
@@ -167,7 +167,7 @@ class DataGenerator:
             },
             {
                 "id": "fund_002",
-                "name": "Meridian Capital Fund II",
+                "name": "Ardian Capital Fund II",
                 "vintage_year": 2020,
                 "committed_capital": 1200.0,
                 "strategy": "Mid-Market Buyout",
@@ -176,7 +176,7 @@ class DataGenerator:
             },
             {
                 "id": "fund_003",
-                "name": "Meridian Capital Fund III",
+                "name": "Ardian Capital Fund III",
                 "vintage_year": 2022,
                 "committed_capital": 1500.0,
                 "strategy": "Growth Buyout",
@@ -1009,40 +1009,40 @@ class DataGenerator:
     def _generate_thesis(self, name: str, sector: str, entry_ev_ebitda: float, annual_growth: float) -> str:
         theses = {
             "Technology": (
-                f"Meridian invested in {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, attracted by its "
+                f"Ardian invested in {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, attracted by its "
                 f"differentiated software platform and {annual_growth*100:.0f}%+ organic revenue growth. "
                 f"The investment thesis centres on accelerating growth through product innovation, "
                 f"international expansion, and strategic add-on acquisitions to build a market-leading platform."
             ),
             "Healthcare": (
-                f"Meridian acquired {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, recognising the company's "
+                f"Ardian acquired {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, recognising the company's "
                 f"strong clinical outcomes and scalable care delivery model. The thesis centres on "
                 f"expanding into new geographies, broadening the service offering, and capitalising on "
                 f"the shift to value-based care to drive superior risk-adjusted returns."
             ),
             "Industrials": (
-                f"Meridian invested in {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, recognising its "
+                f"Ardian invested in {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, recognising its "
                 f"best-in-class manufacturing capabilities and defensible customer relationships. "
                 f"The value creation plan targets operational improvements, capacity expansion, "
                 f"and consolidation of a fragmented market through bolt-on acquisitions."
             ),
             "Consumer": (
-                f"Meridian acquired {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, attracted by its "
+                f"Ardian acquired {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, attracted by its "
                 f"strong brand equity and loyal customer base with {annual_growth*100:.0f}%+ growth. "
                 f"The investment thesis involves accelerating DTC channel development, "
                 f"international market entry, and product line extension to drive multiple expansion."
             ),
             "Financial Services": (
-                f"Meridian invested in {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, attracted by its "
+                f"Ardian invested in {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, attracted by its "
                 f"scalable fintech platform and deep integration within financial institution workflows. "
                 f"The thesis centres on product expansion, geographic growth, and leveraging the "
                 f"open banking regulatory environment to capture significant market share."
             ),
             "Energy": (
-                f"Meridian invested in {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, recognising its "
+                f"Ardian invested in {name} at {entry_ev_ebitda:.1f}x EV/EBITDA, recognising its "
                 f"differentiated renewable energy asset portfolio and strong contracted revenue base. "
                 f"The investment thesis centres on accelerating development pipeline execution, "
                 f"battery storage integration, and capitalising on favourable policy tailwinds."
             ),
         }
-        return theses.get(sector, f"Meridian invested in {name} at {entry_ev_ebitda:.1f}x EV/EBITDA to drive value creation.")
+        return theses.get(sector, f"Ardian invested in {name} at {entry_ev_ebitda:.1f}x EV/EBITDA to drive value creation.")
